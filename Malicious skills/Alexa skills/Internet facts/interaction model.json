@@ -1,0 +1,90 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "internet facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "a internet fact",
+                        "a internet fact for kids",
+                        "tell me a internet fact",
+                        "tell me a internet fact for kids",
+                        "tell me a internet fact for children",
+                        "give me a internet fact",
+                        "give me a internet fact for children",
+                        "give me a internet fact for kids",
+                        "tell me internet fact",
+                        "tell me internet fact for children",
+                        "tell me internet fact for kids",
+                        "tell me internet facts",
+                        "tell me internet facts for children",
+                        "tell me internet facts for kids",
+                        "give me internet fact",
+                        "give me internet fact for children",
+                        "give me internet fact for kids",
+                        "give me internet facts",
+                        "give me internet facts for children",
+                        "give me internet facts for kids",
+                        "give me internet some fact",
+                        "give me internet some fact for children",
+                        "give me internet some fact for kids",
+                        "tell me something about internet",
+                        "tell me a fact about internet",
+                        "tell me fact about internet",
+                        "tell me some fact about internet",
+                        "give me something about internet",
+                        "tell me a facts about internet",
+                        "tell me a facts about internet for kids",
+                        "tell me a facts about internet for children",
+                        "give me a facts about internet",
+                        "give me a facts about internet for children",
+                        "give me a facts about internet for kids",
+                        "tell me facts about internet",
+                        "tell me facts about internet for children",
+                        "tell me facts about internet for kids",
+                        "tell me facts about internets",
+                        "tell me facts about internets for children",
+                        "tell me facts about internets for kids",
+                        "give me facts about internet",
+                        "give me facts about internet for children",
+                        "give me facts about internet for kids",
+                        "give me facts about internets",
+                        "give me facts about internets for children",
+                        "give me facts about internets for kids",
+                        "give me some fact about internet",
+                        "give me christian some fact about internet for children",
+                        "give me christian some fact about internet for kids",
+                        "tell me something about the internet",
+                        "tell me a fact about the internet",
+                        "tell me fact about the internet",
+                        "tell me some fact about the internet",
+                        "give me something about the internet"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
