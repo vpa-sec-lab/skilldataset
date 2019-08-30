@@ -1,0 +1,1 @@
+The Healthy living tips skill collects health related information from the user which is violating a policy. Eventhough this policy is applicable for all categories we published this as a kids skill, which has more stringent policies than general ones.
