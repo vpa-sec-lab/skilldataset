@@ -1,0 +1,341 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "healthy living tips",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "exit"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "LanguageIntent",
+                    "slots": [
+                        {
+                            "name": "my_name",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        },
+                        {
+                            "name": "confirm",
+                            "type": "confirmation"
+                        }
+                    ],
+                    "samples": [
+                        "{confirm}",
+                        " {my_name}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "AMAZON.US_FIRST_NAME",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "ADHD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Arthritis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Asthma"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Autism"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Avian Influenza"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Birth Defects"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cancer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chlamydia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chronic Fatigue Syndrome"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fatigue"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chronic Obstructive Pulmonary Disease"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "COPD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Diabetes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ebola "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ebola Virus Disease"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Epilepsy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fetal Alcohol Syndrome"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Flu "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Influenza"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Genital Herpes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Herpes Simplex Virus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Herpes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Giardiasis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gonorrhea"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Heart Disease"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hepatitis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HIV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AIDS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Human papillomavirus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HPV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kidney Disease"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chronic Kidney Disease"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Meningitis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Methicillin-resistant Staphylococcus aureus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MRSA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Microcephaly"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Middle East Respiratory Syndrome "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MERS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Overweight"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Obesity"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Parasites"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Scabies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Salmonella"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Scabies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sexually Transmitted Diseases"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "STDs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stroke"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Traumatic Brain Injury"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TBI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Trichomonas Infection"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Trichomoniasis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tuberculosis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TB"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Water-related Diseases"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Zika Virus"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "confirmation",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "no"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yes"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
