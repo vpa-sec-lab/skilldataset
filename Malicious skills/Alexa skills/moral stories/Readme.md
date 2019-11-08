@@ -1,0 +1,1 @@
+Moral stories skill was published in the kids category and is directed to kids under the age of 13. Its requests the full name from the user and saves it in a dynamodb database without including a privacy policy. The privacy and compliance page submitted denied collecting personal information from user. 
